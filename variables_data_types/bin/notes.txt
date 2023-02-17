@@ -1,0 +1,17 @@
+->To create the dart project: dart create -t console project_name
+->to see the changes on the terminal simultaneously for dart we use fswatch and just run this line from command prompt:
+fswatch -o bin/  | xargs -n1 -I{}  sh -c 'clear; dart bin/example.dart'
+->we have to types of modififacitons for the variables : changing variable completely or changing the part of the variables's value
+->with const keyword none of the modifications above are allowed
+->with final variables we can do the second type of modification
+->with var keyword we can do both types of  mutations
+->with var once the data type is assigned first then we can not assign another data type value
+->we can assign a constant value to a final one but we can not do the revers of that operation
+->with using 3 / we can jump to the next line without writing more slashes because they are gonna be written automatically
+->with dart we don't have to write the data type because it is gonna infer them by itself
+->stringName.replaceAll(partwewillchange,tobechangeWith)
+->LATE VARİABLES ARE İNİTİALİZED WHEN THEY ARE USED (lookk at example7 )
+->if we want to specification of data types to be ruled then we write always_specify_types to linter/rules part of the analysis_options.yaml file
+->naming convention of dart is camelCase
+->we can not assign the value of num variable to double or int but we can do the reverse
+->
