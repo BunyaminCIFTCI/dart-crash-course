@@ -1,0 +1,3 @@
+->to add the folder to github account
+->git init then git status to see unadded folders then git add --all then git commit -am "your comment" and for the last stage just write git push
+->
