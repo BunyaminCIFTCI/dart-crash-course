@@ -1,0 +1,8 @@
+->if we say const name=null then data type of name becomes dynamic
+->for our data type to accept null we have to use ? for example int? number=null otherwise it gives error
+->we can say int age; but if we want to print it then we have to say int? age
+->if we even want to use ?? operator then our variable has to be initialized as nullable value
+->null aware operator means that do this action if our valiable is not null otherwise do not do that action
+->for final variables our value can be null but not for const ones because final ones look until our varible is used but const ones watch out even we do not use our variable
+->with using ! sign we force our program to read the value of our variable and which may crash our program
+->return type of the functions can be nullable data types
