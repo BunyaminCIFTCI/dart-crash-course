@@ -1,0 +1,9 @@
+->late variables start to make work when they are used not when they are initialized
+->above rule persists even when the constructor of a class is initialized 
+->look at the example1 one and see that when the value is assigned then it continues like that
+->stringName.split(' ') returns list
+->we can assign one late variable to another one AND when we assign the late variable to a non-late one then the late variable is executed immediately(look at example3)
+->look at example2
+->write late keyword before the final keyword
+-> WARNING:late instance variables should not be initialized inside the constructor because they are gonna work immediately inside a constructor which is not seen in normal scenarios
+->
