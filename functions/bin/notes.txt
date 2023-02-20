@@ -1,0 +1,10 @@
+->to force our code to write return type to a function just change linter rule of analysis.option file: always_return_declare_types
+->if we do not specify return type of function the default one is gonna be dynamic and if our function does not really return something then when we print it gives null
+->above sentence equals to: every function returns null by default
+->named parameters always have to have a value either a default value of an optional value
+->we dont have to pass the named parameters to function call so funcName() is valid because named parameter already has a value
+->if we do not want to specify a default value then we use required keyword
+->required named parameters can not have default values
+->in positional parameters order is important and all are required and they can not have default values
+->if we want positional parameters to have default values then we have to make them optional positional parameters
+->look at the example2 and 3 carefully
