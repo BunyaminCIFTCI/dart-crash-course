@@ -5,5 +5,6 @@ void main(List<String> args) {
     stdout.write("Enter your age or type 'exit' to exit :");
     final age = stdin.readLineSync();
     print("Your age is $age");
+    print("hello");
   } while (true);
 }
