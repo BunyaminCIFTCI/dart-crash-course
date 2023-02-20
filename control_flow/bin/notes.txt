@@ -1,0 +1,5 @@
+-> to generate  list of integers from 0 to n then use Iterable.generate(n+1).toList()
+->to execute for loop over a map =>example1
+->for for loops we can use final for our variable inside the loop 
+->for usage of do while and taking input from user look at example2
+->
