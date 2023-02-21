@@ -1,0 +1,23 @@
+->stringName.toUpperCase() converts all the letters to upper case 
+->listName.where((element)=>null) returns an Iterable  so we have to convert it to list (example1)
+->listName.elementAt(index)=listName[index]
+->to take a sublist from a parent list =listName.sublist(a,b) index a is inclusive but b is exclusive
+->when we initialize a list as final list=[str,str ] then we can not add int values
+->to compare equality of to list then both have to be const otherwise they are not gonna be equal at all
+->for where and forEach functions we write other custom functions inside them without using parantheses
+->for usage of fold function look at example2
+->to add a package dart pub add and to remove a package dart pub remove is used
+->to be faster always remember to use spread operator=...
+->if we have two final or var lists or sets and if we want to understand whether they have the same elements or not then we use SetEquality().equals(set1,set2) function of collection package(example4)
+->even when we use a const constructor but when we do not specify const keywords before our class instances even they have the same instance values they are not gonna be equal
+->to make a better comparison for classes then we override two methods(example6)
+->if we only want to add the value if it does not exist then use putIfAbsent on the map
+->to see whether there is the key that we look for in map use:mapName.containsKey(keyName) which returns bool value
+->looking for the value of a nonexisting key gives us null value i mean it does not crush the program
+->Iterables are lazily evaluated lists in other words they are created when they are really used
+->for the usage of UnmodifiableListView look at example9
+->to add a map to another one with all the values just use mapName.addAll(otherMap) function
+->inside the same file one function can reach to private values of a class
+->using last and first methods on empty lists gives us errors
+->assignin one list to other does not only assign all the values but also the memory location and we see it with maps as well(look at example11)
+->
