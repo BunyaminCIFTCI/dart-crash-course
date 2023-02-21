@@ -1,0 +1,5 @@
+->during naming the enums we use pascal case
+->for enhanced enums look at example2
+->to get all the elements of an enum in the list use enumName.values and for the specific one use enumName.cat.name(so use name method)
+->we can use enums with mixins as well
+->
