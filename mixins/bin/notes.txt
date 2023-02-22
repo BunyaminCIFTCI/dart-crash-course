@@ -1,0 +1,4 @@
+->general info about mixins=>example1
+->for using mixins as data types look=>example2
+->we can not extend a class twice even we extend first normally then using with the with keyword with a mixin that already extends another class
+->
