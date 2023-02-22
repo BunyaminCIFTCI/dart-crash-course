@@ -1,0 +1,12 @@
+->making variable const is different than making the value const
+->for constructor types look at example1
+->in dart every class is subclass of Object class
+->overriding is reimplementation of parent class' method
+->for inheritance look at example2
+->when we call getters we do not use parantheses
+->for an important scope information look at example3 
+->statics=>example5
+->in normal constructors we can only create instances of that class but in factory constructors we can also create instances of subclasses
+->but we can not call a superclass from factory constructor of subclass(example6)
+->for abstract classes look at example7
+->
