@@ -1,0 +1,4 @@
+->in dart we can throw anything
+->we implement Exception class instead of extending it 
+->to create our custom Exception class look at example1
+->Exceptions are meant be caught but errors are not
