@@ -1,0 +1,8 @@
+->we can also use getters inside extensions
+->listName.join() functions returns all the values conjoint and as a string
+->listName.reduce() function can be used to take sum of the elements of a list
+->for the range example look at example2
+->we can convert a list to set with listName.toSet() function
+->for the usage of extensions on enums and RegExp functionality look at example3
+->to look at usage of extensions on functions look at example4
+->
