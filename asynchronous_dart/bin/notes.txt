@@ -1,0 +1,11 @@
+->if we do not use asyn and await keywords and if we print the return value of the function then it gives us the instance of Future clas
+so remember to specify async and await
+->for different ways to create Futures look at example 1
+->for chaining of Futures look at example3
+->for reading the value of a Stream look at example4
+->to connect streams each other we use asyncExpand()=>look at example5
+->to use a function on the elements of a stream then use .reduce function=>example6
+->for the usage of yielding streams look at example8
+->Streams are read only but StreamController can be used for both reading and writing the values=>example9
+->The streams that we have created until now were nonBroadcastStreams which can be listened only from one place
+->for broadcast streams look at example10
